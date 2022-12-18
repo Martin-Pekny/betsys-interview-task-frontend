@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import type { OnInit } from '@angular/core';
 
-export interface PeriodicElement {
+export interface Product {
   image: string;
   name: string;
   quantity: number;
   price: number;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+const ELEMENT_DATA: Product[] = [
   {image: '../', name: 'Placeholder', quantity: 4, price: 137},
   {image: '../', name: 'Placeholder', quantity: 4, price: 312},
   {image: '../', name: 'Placeholder', quantity: 6, price: 599},
@@ -26,7 +26,7 @@ export class ProductsComponent implements OnInit {
 
   displayedColumns: string[] = ['image', 'name', 'quantity', 'price'];
   dataSource = ELEMENT_DATA;
-  clickedRows = new Set<PeriodicElement>();
+  clickedRows = new Set<Product>();
   
   constructor() { }
 

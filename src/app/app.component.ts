@@ -11,7 +11,6 @@ export class AppComponent {
   constructor(
   ) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }

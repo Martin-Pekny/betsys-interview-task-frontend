@@ -20,7 +20,7 @@ import { ShopModule } from './modules/shop/shop.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ShopModule
+    ShopModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

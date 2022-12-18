@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
-import { RouterModule } from '@angular/router'
+import { RouterModule } from '@angular/router';
 // components
 import { HeaderComponent } from './components/header/header.component';
 import { ProductsComponent } from './components/products/products.component';
@@ -14,7 +14,7 @@ import { shopRoutes } from './shop.routes'
   imports: [
     CommonModule,
     MaterialModule,
-    RouterModule.forChild(shopRoutes)
+    RouterModule.forChild(shopRoutes),
   ],
   declarations: [
     HeaderComponent,
