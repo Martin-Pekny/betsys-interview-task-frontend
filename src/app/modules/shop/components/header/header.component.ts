@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor() {}
 
   cart = []
+  numOfItems = 0
 
   ngOnInit(): void {
   }

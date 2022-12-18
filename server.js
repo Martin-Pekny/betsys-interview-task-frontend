@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 const products = require('./src/assets/products-list/products.js');
 
 app.use(bodyParser.json());

@@ -4,11 +4,11 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
 import { RouterModule } from '@angular/router'
 // components
-import { HeaderComponent } from './header/header.component';
-import { ProductsComponent } from './products/products.component';
-import { ShopComponent } from './shop/shop.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ShopComponent } from './components/shop/shop.component';
 // routing 
-import { shopRoutes } from './shop/shop.routes'
+import { shopRoutes } from './shop.routes'
 
 @NgModule({
   imports: [
